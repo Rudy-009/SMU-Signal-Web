@@ -1,12 +1,11 @@
-import { useState } from 'react'
+import React from 'react'
 import './App.css'
+import Signup from './pages/Signup'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <div className="p-8 text-2xl text-blue-600 font-bold">
-      Tailwind 적용 완료!
+    <div className="min-h-screen flex items-center justify-center bg-gray-50">
+      <Signup />
     </div>
   )
 }
